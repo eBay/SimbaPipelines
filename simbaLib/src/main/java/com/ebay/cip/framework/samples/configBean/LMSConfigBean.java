@@ -29,12 +29,12 @@ public class LMSConfigBean extends BaseConfigBean {
         if(buildConfig.isProduction()){
 
         }else if(buildConfig.isLandP()) {
-            authToken = "v^1.1#i^1#I^3#f^0#p^3#r^1#t^Ul4yXzYzREZBQjJGRUI0RTMwOTkyOTcyNkJGODQyMzlERjIzI0VeNzcy";
-            tradingApiURL = "http://api5.pedc.qa.ebay.com/ws/api.dll";
+            authToken = "Service Authentication token";
+            tradingApiURL = "Service API endpoint";
         }else if(buildConfig.isSandbox()) {
 
         }else if(buildConfig.isQATE() || buildConfig.isDev()) {
-            authToken = "v^1.1#i^1#r^1#I^3#f^0#p^3#t^Ul4yX0ZCMTgyQUIxQTFFQkMyRTJDNDU0MEIwNzJDRTgxM0U2I0VeNTE2";
+            authToken = "Service Authentication token";
             //tradingApiURL = "";
         }
 
